@@ -1,0 +1,11 @@
+PS C:\Users\minil\OneDrive\デスクトップ\git_challenge> git init
+プ/git_challenge/.git/
+PS C:\Users\minil\OneDrive\デスクトップ\git_challenge> git add hello_woPS C:\Users\minil\OneDrive\デスクトップ\git_challenge> git commit -m "hello,world!を追加"
+[main (root-commit) d32d9cc] hello,world!を追加
+ create mode 100644 hello_world!.txt
+S C:\Users\minil\OneDrive\デスクトップ\git_challenge> git add hello_world!.txt
+PS C:\Users\minil\OneDrive\デスクトップ\git_challenge> git commit -m "oこんにちは、世界！を追加"
+
+PS C:\Users\minil\OneDrive\デスクトップ\git_challenge> git log --oneline
+286ccf6 (HEAD -> main) こんにちは、世界！を追加
+d32d9cc hello,world!を追加
